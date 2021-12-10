@@ -22,5 +22,6 @@
       - zsh-syntax-highlighting
       - zfz
       - krita
+      - chirp
     state: present
 
