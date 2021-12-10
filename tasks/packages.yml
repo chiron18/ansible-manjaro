@@ -26,7 +26,6 @@
       - konversation
       - calibre
       - bitwarden
-      - Spotify
       - whatsapp-for-linux
     state: present
 
