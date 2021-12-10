@@ -1,0 +1,25 @@
+- name: Install packages
+    community.general.pacman:
+      name: 
+      - gimp
+      - mc
+      - tmux
+      - vlc
+      - brave
+      - nmap
+      - audacity
+      - filezilla
+      - hexchat
+      - libreoffice-fresh
+      - git
+      - kitty
+      - vim
+      - lsd
+      - gftp
+      - gnome-disk-utility
+      - zsh
+      - zsh-completions
+      - zsh-syntax-highlighting
+      - fzf     
+      state: latest
+
