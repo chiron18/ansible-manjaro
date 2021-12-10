@@ -1,0 +1,15 @@
+- name: Install Oracle VM VirtualBox Extension Pack
+  shell: |
+    set -o pipefail
+    pamac build -d --no-confirm virtualbox-ext-oracle | grep "is up to date"
+    if [ $? != 0 ]; then
+      pamac build --no-confirm virtualbox-ext-oracle
+    fi
+  register: command_result
+  failed_when: command_result.rc != 0
+  changed_when: "'successfully' in command_result.stdout"
+  become: true
+  tags:
+    - virtualization
+    - oracle
+    - aur
