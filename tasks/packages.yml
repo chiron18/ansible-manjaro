@@ -13,15 +13,20 @@
       - libreoffice-fresh
       - git
       - kitty
-      - vim
       - lsd
       - gftp
       - gnome-disk-utility
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
-      - zfz
       - krita
-      - chirp
+      - MComix
+      - Steam
+      - gftp
+      - Konversation
+      - Calibre
+      - Dropbox
+      - Spotify
+      - Whatsapp
     state: present
 
