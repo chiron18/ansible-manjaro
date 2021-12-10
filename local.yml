@@ -5,6 +5,6 @@
   tasks:
   - name: Install htop
     community.general.pacman:
-      name: htop
+      name: gimp
       state: latest
 
