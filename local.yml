@@ -7,12 +7,20 @@
       pacman:
         update_cache: yes
         upgrade: yes
-    - name: copy wallpaper file
+    - name: copy KPH details
       copy:
         src: files/KPH_data.odt
         dest: /home/greg/Documents/KPH_data.odt
         owner: root
         group: root
+
+    - name: copy YAY details
+      copy:
+        src: files/YAY-ansible.txt
+        dest: /home/greg/Documents/YAY-ansible.txt
+        owner: root
+        group: root
+
 
   tasks:
     - include: tasks/packages.yml
