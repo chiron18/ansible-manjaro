@@ -27,5 +27,6 @@
       - calibre
       - bitwarden
       - whatsapp-for-linux
+      - opera
     state: present
 
