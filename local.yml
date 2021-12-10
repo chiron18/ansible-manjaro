@@ -9,8 +9,8 @@
         upgrade: yes
     - name: copy KPH details
       copy:
-        src: files/KPH_data.odt
-        dest: /home/greg/Documents/KPH_data.odt
+        src: files/KPH.txt
+        dest: /home/greg/Documents/KPH.txt
         owner: root
         group: root
 

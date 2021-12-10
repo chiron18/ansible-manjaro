@@ -1,0 +1,33 @@
+our new RuTorrent seedbox has been installed
+
+The connection and login details are as follows
+
+Standard (non-SSL) connection -
+https://box-360148.
+
+Secure SSL connection (you'll need to accept the self-signed certificate) -
+https://box-360148.
+
+Username - rt7t18
+Password - 8sIMswALaV6x
+
+FTP is available at ftp://box-360148.kphservices. port 21 and uses the same username and password as above
+
+SFTP is available at the same address on port 2222 (non-standard) and also uses the same username and password
+
+You may access your downloads directory in a web browser or in a download manager using HTTP at https://box-360148.
+or via HTTPS/SSL at https://box-360148.
+
+Your torrent client will use IP address 176.31.36.40
+
+RuTorrent is very like uTorrent in operation and most features can be accessed by the buttons at the top or by right-clicking any torrent in the list
+
+A list of guides to using your seedbox service can be found here - https://customer.kphservices.
+
+We recommend using BitKinex for FTP transfers - It's a free FTP client which uses multi-threading to optimise download and upload speeds - A brief guide to setting up BitKinex and enabling multi-part transfers is available here http://customer.kphservices.
+
+If you have any problems or questions or if you require support please contact us - We will reply promptly to any queries and will resolve any problems or errors as soon as possible
+
+We hope you enjoy your RuTorrent service
+
+Best regards,
