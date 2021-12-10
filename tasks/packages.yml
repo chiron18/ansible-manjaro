@@ -20,5 +20,7 @@
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
+      - zfz
+      - krita
     state: present
 
