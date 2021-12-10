@@ -20,6 +20,5 @@
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
-      - fzf     
       state: present
 
