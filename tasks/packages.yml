@@ -20,13 +20,13 @@
       - zsh-completions
       - zsh-syntax-highlighting
       - krita
-      - MComix
-      - Steam
+      - mcomix
+      - steam-manjaro
       - gftp
-      - Konversation
-      - Calibre
-      - Dropbox
+      - konversation
+      - calibre
+      - bitwarden
       - Spotify
-      - Whatsapp
+      - whatsapp-for-linux
     state: present
 
