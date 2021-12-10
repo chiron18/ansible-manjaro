@@ -1,10 +1,12 @@
 - hosts: localhost
-  connection: local
+  connection: true
   become: true
 
-  tasks:
-  - name: Install htop
-    community.general.pacman:
-      name: gimp
-      state: latest
+  pre-tasks:
+    - name: update repositories
+      pacman:
+        update_cache: yes
+        upgrade: yes
 
+  tasks:
+    - include: tasks/packages.yml
