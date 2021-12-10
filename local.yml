@@ -3,10 +3,6 @@
   become: true
 
   pre_tasks:
-    - name: update repositories
-      pacman:
-        update_cache: yes
-        upgrade: yes
     - name: copy KPH details
       copy:
         src: files/KPH.txt
