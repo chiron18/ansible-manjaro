@@ -20,5 +20,5 @@
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
-     state: present
+    state: present
 
