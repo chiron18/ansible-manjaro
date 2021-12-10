@@ -1,0 +1,6 @@
+to install YAY
+ansible-galaxy install jonsible.yay
+
+to manage AUR repositories
+ansible-galaxy collection install kewlfft.aur
+
