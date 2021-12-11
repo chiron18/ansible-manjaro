@@ -2,7 +2,6 @@
   community.general.pacman:
     name: 
       - gimp
-      - mc
       - tmux
       - vlc
       - brave
@@ -12,7 +11,6 @@
       - hexchat
       - libreoffice-fresh
       - git
-      - kitty
       - lsd
       - gftp
       - gnome-disk-utility
@@ -22,7 +20,6 @@
       - krita
       - mcomix
       - steam-manjaro
-      - gftp
       - konversation
       - calibre
       - bitwarden
