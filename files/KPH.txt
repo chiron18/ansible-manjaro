@@ -1,6 +1,4 @@
-our new RuTorrent seedbox has been installed
-
-The connection and login details are as follows
+connection and login details are as follows
 
 Standard (non-SSL) connection -
 https://box-360148.
