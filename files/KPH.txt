@@ -8,10 +8,7 @@ https://box-360148.
 Secure SSL connection (you'll need to accept the self-signed certificate) -
 https://box-360148.
 
-Username - rt7t18
-Password - 8sIMswALaV6x
-
-FTP is available at ftp://box-360148.kphservices. port 21 and uses the same username and password as above
+Password - 8sIMswALaV6xFTP is available at ftp://box-360148.kphservices. port 21 and uses the same username and password as above
 
 SFTP is available at the same address on port 2222 (non-standard) and also uses the same username and password
 
