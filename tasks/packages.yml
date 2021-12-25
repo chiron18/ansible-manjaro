@@ -24,5 +24,6 @@
       - bitwarden
       - whatsapp-for-linux
       - opera
+      - brave
     state: present
 
